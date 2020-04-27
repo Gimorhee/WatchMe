@@ -4,10 +4,18 @@ import { Nav } from "./Nav";
 import { useSpring, animated } from "react-spring";
 
 export const Main = () => {
-  const props = useSpring({
-    from: { number: 0 },
-    to: { number: 100 },
-    config: { duration: 100000 },
+  const mainProps = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    delay: 600,
+    config: { duration: 1200 },
+  });
+
+  const bottomProps = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    delay: 1400,
+    config: { duration: 1000 },
   });
 
   return (
@@ -15,13 +23,16 @@ export const Main = () => {
       <Nav />
 
       <div className="Main-Content">
-        <h1>FOLLOW YOUR TIME.</h1>
-        <p>
-          Trusted by the world's largest clients, labels and brands to collect
-          more royalties, consult about your next watch, fix more safely and
-          with more transparency than anyone else.{" "}
-        </p>
-        <animated.span>{console.log(props.number)}</animated.span>
+        <animated.div style={mainProps}>
+          <h1>FOLLOW YOUR TIME.</h1>
+        </animated.div>
+        <animated.div style={bottomProps}>
+          <p>
+            Trusted by the world's largest clients, labels and brands to collect
+            more royalties, consult about new premium watch, fix and customize
+            with more transparency and technology than anyone else.{" "}
+          </p>
+        </animated.div>
       </div>
     </div>
   );

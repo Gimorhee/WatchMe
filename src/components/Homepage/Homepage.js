@@ -1,7 +1,7 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 
 import { Main } from "./Main";
+import { GetInTouch } from "./GetInTouch";
 
 import "../../styles/Homepage/Homepage.css";
 
@@ -9,6 +9,7 @@ export const Homepage = () => {
   return (
     <div className="Homepage">
       <Main />
+      <GetInTouch />
     </div>
   );
 };

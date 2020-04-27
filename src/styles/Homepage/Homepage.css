@@ -1,11 +1,34 @@
+.Homepage nav {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  left: 25px;
+  top: 25px;
+}
+
+.Homepage nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Homepage nav a:focus {
+  outline: none;
+}
+
+.Homepage nav a i {
+  font-size: 20px;
+}
+
 .Homepage .Main {
-  min-height: 100vh;
+  min-height: 105vh;
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../../src/images/main.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../../src/images/main.jpg");
+  -webkit-box-shadow: 3px 3px 3px 3px black;
+          box-shadow: 3px 3px 3px 3px black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,12 +50,12 @@
 
 .Homepage .Main .Main-Content h1,
 .Homepage .Main .Main-Content p {
-  color: #dadada;
+  color: #ececec;
   letter-spacing: 1px;
 }
 
 .Homepage .Main .Main-Content h1 {
-  font-size: 85px;
+  font-size: 80px;
   margin-bottom: 15px;
 }
 
@@ -42,25 +65,57 @@
   line-height: 1.4;
 }
 
-.Homepage .Main nav {
-  position: absolute;
-  font-size: 20px;
+.Homepage .GetInTouch {
+  background: #204051;
+  height: auto;
+  color: #ececec;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 90px 30px;
+}
+
+.Homepage .GetInTouch .GetInTouch-Content h3 {
   font-weight: 600;
-  left: 25px;
-  top: 25px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  max-width: 950px;
 }
 
-.Homepage .Main nav a {
-  color: #e9e6e6;
+.Homepage .GetInTouch .GetInTouch-Content a {
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  background: #84a9ac;
+  border: none;
+  border-radius: 4px;
+  padding: 17px 50px;
+  color: #fff;
+  -webkit-transition: 0.4s ease-in-out all;
+  transition: 0.4s ease-in-out all;
 }
 
-.Homepage .Main nav a:focus {
+.Homepage .GetInTouch .GetInTouch-Content a:focus {
   outline: none;
 }
 
-.Homepage .Main nav a i {
-  font-size: 20px;
+.Homepage .GetInTouch .GetInTouch-Content a:hover {
+  background: #fff;
+  color: #204051;
 }
 
 @media only screen and (max-width: 925px) {
@@ -77,22 +132,28 @@
     font-size: 45px;
   }
   .Homepage .Main .Main-Content p {
-    font-size: 15.5px;
+    font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 550px) {
   .Homepage .Main .Main-Content h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
   .Homepage .Main .Main-Content p {
-    font-size: 15px;
+    font-size: 15.5px;
+  }
+  .Homepage .GetInTouch .GetInTouch-Content h3 {
+    font-size: 22px;
+  }
+  .Homepage .GetInTouch .GetInTouch-Content a {
+    font-size: 16.5px;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .Homepage .Main .Main-Content h1 {
-    font-size: 30px;
+    font-size: 32px;
   }
   .Homepage .Main .Main-Content p {
     font-size: 14px;
