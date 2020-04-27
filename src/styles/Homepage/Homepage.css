@@ -1,0 +1,101 @@
+.Homepage .Main {
+  min-height: 100vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../../src/images/main.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../../src/images/main.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Homepage .Main .Main-Content {
+  padding: 10px 35px;
+}
+
+.Homepage .Main .Main-Content h1,
+.Homepage .Main .Main-Content p {
+  color: #dadada;
+  letter-spacing: 1px;
+}
+
+.Homepage .Main .Main-Content h1 {
+  font-size: 85px;
+  margin-bottom: 15px;
+}
+
+.Homepage .Main .Main-Content p {
+  font-size: 20px;
+  max-width: 1150px;
+  line-height: 1.4;
+}
+
+.Homepage .Main nav {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  left: 25px;
+  top: 25px;
+}
+
+.Homepage .Main nav a {
+  color: #e9e6e6;
+  text-decoration: none;
+}
+
+.Homepage .Main nav a:focus {
+  outline: none;
+}
+
+.Homepage .Main nav a i {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 925px) {
+  .Homepage .Main .Main-Content h1 {
+    font-size: 65px;
+  }
+  .Homepage .Main .Main-Content p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .Homepage .Main .Main-Content h1 {
+    font-size: 45px;
+  }
+  .Homepage .Main .Main-Content p {
+    font-size: 15.5px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Homepage .Main .Main-Content h1 {
+    font-size: 35px;
+  }
+  .Homepage .Main .Main-Content p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Homepage .Main .Main-Content h1 {
+    font-size: 30px;
+  }
+  .Homepage .Main .Main-Content p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=Homepage.css.map */

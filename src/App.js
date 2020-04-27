@@ -1,8 +1,20 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import { Homepage } from "./components/Homepage/Homepage";
+
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <Router>
+      <Fragment>
+        <Switch>
+          <Route exact path="/" component={Homepage} />
+        </Switch>
+      </Fragment>
+    </Router>
+  );
 }
 
 export default App;
