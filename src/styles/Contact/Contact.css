@@ -14,7 +14,8 @@
 }
 
 .Contact .Contact-Content {
-  height: 200px;
+  padding: 0 15px;
+  position: relative;
 }
 
 .Contact .Contact-Content .Contact-Q {
@@ -93,6 +94,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  right: 0;
 }
 
 .Contact .Contact-Content .Contact-S a {
@@ -119,19 +122,183 @@
   font-size: 13px;
 }
 
+.Contact .Contact-Content .Content-Multiple {
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.Contact .Contact-Content .Other-Option {
+  margin: 20px 0;
+  margin-left: 30px;
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #6f9499;
+  height: 40px;
+  background: none;
+  color: #ececec;
+  font-size: 25px;
+}
+
+.Contact .Contact-Content .Other-Option:focus {
+  border-bottom: none;
+  outline: none;
+}
+
+.Contact .Contact-Content .Other-Option::-webkit-input-placeholder {
+  font-size: 25px;
+  font-weight: 600;
+  color: #6f9499;
+  font-family: "Exo 2", sans-serif;
+}
+
+.Contact .Contact-Content .Other-Option:-ms-input-placeholder {
+  font-size: 25px;
+  font-weight: 600;
+  color: #6f9499;
+  font-family: "Exo 2", sans-serif;
+}
+
+.Contact .Contact-Content .Other-Option::-ms-input-placeholder {
+  font-size: 25px;
+  font-weight: 600;
+  color: #6f9499;
+  font-family: "Exo 2", sans-serif;
+}
+
+.Contact .Contact-Content .Other-Option::placeholder {
+  font-size: 25px;
+  font-weight: 600;
+  color: #6f9499;
+  font-family: "Exo 2", sans-serif;
+}
+
+.Contact .Contact-Content .Content-Choices {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.Contact .Contact-Content .Content-Choices .Content-Choice {
+  background: #47748b;
+  color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(50% - 10px);
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Contact .Contact-Content .Content-Choices .Content-Choice:focus {
+  outline: none;
+}
+
+.Contact .Contact-Content .Content-Choices .Content-Choice i {
+  display: none;
+}
+
+.Contact .Contact-Content .Content-Choices .Content-Choice .Content-Type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Contact .Contact-Content .Content-Choices .Content-Choice .Content-Type span {
+  border: 1px solid #dadada;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.Contact .Contact-Content .Content-Choices .Content-Choice .Content-Type p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Contact .Contact-Content .Content-Choices .Chosen {
+  background: #47748b;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(50% - 10px);
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Contact .Contact-Content .Content-Choices .Chosen:focus {
+  outline: none;
+}
+
+.Contact .Contact-Content .Content-Choices .Chosen i {
+  display: block;
+}
+
+.Contact .Contact-Content .Content-Choices .Chosen .Content-Type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Contact .Contact-Content .Content-Choices .Chosen .Content-Type span {
+  border: 1px solid #dadada;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background: #fff;
+  color: #295064;
+}
+
+.Contact .Contact-Content .Content-Choices .Chosen .Content-Type p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .Contact .Contact-Content .Contact-Warning {
   margin-left: 30px;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 15px;
   background: #900c3f;
   padding: 5px;
-  width: 50%;
   border-radius: 4px;
   text-align: center;
+  position: absolute;
 }
 
 @media only screen and (max-width: 767px) {
   .Contact .Contact-Content .Contact-A input {
+    width: 625px;
+  }
+  .Contact .Contact-Content .Content-Choices {
     width: 625px;
   }
 }
@@ -140,10 +307,16 @@
   .Contact .Contact-Content .Contact-A input {
     width: 525px;
   }
+  .Contact .Contact-Content .Content-Choices {
+    width: 525px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
   .Contact .Contact-Content .Contact-A input {
+    width: 425px;
+  }
+  .Contact .Contact-Content .Content-Choices {
     width: 425px;
   }
 }
@@ -151,6 +324,19 @@
 @media only screen and (max-width: 450px) {
   .Contact .Contact-Content .Contact-A input {
     width: 325px;
+  }
+  .Contact .Contact-Content .Content-Choices {
+    width: 325px;
+  }
+  .Contact .Contact-Content .Content-Choices .Content-Choice,
+  .Contact .Contact-Content .Content-Choices .Chosen {
+    width: 100%;
+  }
+  .Contact .Contact-Content .Other-Option {
+    width: 90%;
+  }
+  .Contact .Contact-Content .Contact-Warning {
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=Contact.css.map */

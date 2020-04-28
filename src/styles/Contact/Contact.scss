@@ -9,7 +9,8 @@
   align-items: center;
 
   .Contact-Content {
-    height: 200px;
+    padding: 0 15px;
+    position: relative;
 
     .Contact-Q {
       display: flex;
@@ -60,6 +61,8 @@
       margin-top: 20px;
       display: flex;
       align-items: center;
+      position: absolute;
+      right: 0;
 
       a {
         color: #fff;
@@ -86,15 +89,132 @@
       }
     }
 
+    .Content-Multiple {
+      margin-left: 30px;
+      font-weight: 500;
+    }
+
+    .Other-Option {
+      margin: 20px 0;
+      margin-left: 30px;
+      width: 95%;
+      border: none;
+      border-bottom: 1px solid #6f9499;
+      height: 40px;
+      background: none;
+      color: #ececec;
+      font-size: 25px;
+
+      &:focus {
+        border-bottom: none;
+        outline: none;
+      }
+
+      &::placeholder {
+        font-size: 25px;
+        font-weight: 600;
+        color: #6f9499;
+        font-family: "Exo 2", sans-serif;
+      }
+    }
+
+    .Content-Choices {
+      width: 700px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 25px;
+      margin-top: 20px;
+
+      .Content-Choice {
+        background: #47748b;
+        color: #fff;
+        border: 1px solid #dadada;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(50% - 10px);
+        margin: 5px;
+        padding: 10px;
+        cursor: pointer;
+
+        &:focus {
+          outline: none;
+        }
+
+        i {
+          display: none;
+        }
+
+        .Content-Type {
+          display: flex;
+          align-items: center;
+
+          span {
+            border: 1px solid #dadada;
+            padding: 3px 6px;
+            border-radius: 5px;
+            margin-right: 10px;
+          }
+
+          p {
+            font-size: 20px;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .Chosen {
+        background: #47748b;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(50% - 10px);
+        margin: 5px;
+        padding: 10px;
+        cursor: pointer;
+
+        &:focus {
+          outline: none;
+        }
+
+        i {
+          display: block;
+        }
+
+        .Content-Type {
+          display: flex;
+          align-items: center;
+
+          span {
+            border: 1px solid #dadada;
+            padding: 3px 6px;
+            border-radius: 5px;
+            margin-right: 10px;
+            background: #fff;
+            color: #295064;
+          }
+
+          p {
+            font-size: 20px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
     .Contact-Warning {
       margin-left: 30px;
       margin-top: 20px;
-      font-size: 14px;
+      font-size: 15px;
       background: #900c3f;
       padding: 5px;
-      width: 50%;
       border-radius: 4px;
       text-align: center;
+      position: absolute;
     }
   }
 }
@@ -106,6 +226,10 @@
         input {
           width: 625px;
         }
+      }
+
+      .Content-Choices {
+        width: 625px;
       }
     }
   }
@@ -119,6 +243,10 @@
           width: 525px;
         }
       }
+
+      .Content-Choices {
+        width: 525px;
+      }
     }
   }
 }
@@ -131,6 +259,10 @@
           width: 425px;
         }
       }
+
+      .Content-Choices {
+        width: 425px;
+      }
     }
   }
 }
@@ -142,6 +274,23 @@
         input {
           width: 325px;
         }
+      }
+
+      .Content-Choices {
+        width: 325px;
+
+        .Content-Choice,
+        .Chosen {
+          width: 100%;
+        }
+      }
+
+      .Other-Option {
+        width: 90%;
+      }
+
+      .Contact-Warning {
+        font-size: 13px;
       }
     }
   }
