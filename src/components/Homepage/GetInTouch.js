@@ -29,7 +29,7 @@ export const GetInTouch = () => {
             </h3>
           </animated.div>
           <animated.div style={bottomProps}>
-            <Link to="/contact">Get in touch</Link>
+            <Link to="/contact1">Get in touch</Link>
           </animated.div>
         </div>
       </div>

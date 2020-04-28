@@ -1,0 +1,148 @@
+.Contact {
+  background: #295064;
+  height: 100vh;
+
+  color: #ececec;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .Contact-Content {
+    height: 200px;
+
+    .Contact-Q {
+      display: flex;
+      align-items: center;
+      font-weight: 300;
+      margin-bottom: 25px;
+      font-weight: 500;
+
+      i {
+        font-size: 10px;
+        margin-left: 3px;
+        margin-right: 7px;
+      }
+
+      h1 {
+        font-size: 25px;
+        font-weight: 500;
+      }
+    }
+
+    .Contact-A {
+      input {
+        margin-left: 30px;
+        width: 700px;
+        border: none;
+        border-bottom: 1px solid #6f9499;
+        height: 40px;
+        background: none;
+        color: #ececec;
+        font-size: 25px;
+
+        &:focus {
+          border-bottom: none;
+          outline: none;
+        }
+
+        &::placeholder {
+          font-size: 28px;
+          font-weight: 600;
+          color: #6f9499;
+          font-family: "Exo 2", sans-serif;
+        }
+      }
+    }
+
+    .Contact-S {
+      margin-left: 30px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        background: #7ebdb4;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 20px;
+
+        &:focus {
+          outline: none;
+        }
+
+        span {
+          font-size: 10px;
+          margin-left: 3px;
+        }
+      }
+
+      p {
+        margin-left: 20px;
+        font-size: 13px;
+      }
+    }
+
+    .Contact-Warning {
+      margin-left: 30px;
+      margin-top: 20px;
+      font-size: 14px;
+      background: #900c3f;
+      padding: 5px;
+      width: 50%;
+      border-radius: 4px;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Contact {
+    .Contact-Content {
+      .Contact-A {
+        input {
+          width: 625px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .Contact {
+    .Contact-Content {
+      .Contact-A {
+        input {
+          width: 525px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Contact {
+    .Contact-Content {
+      .Contact-A {
+        input {
+          width: 425px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Contact {
+    .Contact-Content {
+      .Contact-A {
+        input {
+          width: 325px;
+        }
+      }
+    }
+  }
+}
