@@ -125,8 +125,8 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  -webkit-box-shadow: 10px 10px 10px 10px black;
-          box-shadow: 10px 10px 10px 10px black;
+  -webkit-box-shadow: 3px 3px 3px 6px black;
+          box-shadow: 3px 3px 3px 6px black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
