@@ -7,7 +7,7 @@ export const Contact6 = ({ history }) => {
   const props = useSpring({
     from: { marginTop: -5000 },
     to: { marginTop: 0 },
-    config: { duration: 1300 },
+    config: { duration: 1000 },
   });
 
   // Contact Content Props
@@ -31,7 +31,7 @@ export const Contact6 = ({ history }) => {
     <div className="Contact">
       <animated.div style={props} className="Contact-Content">
         <div className="Contact-Q">
-          <span>5</span>
+          <span>6</span>
           <i className="fas fa-arrow-right"></i>
           <h1>
             If you have any additional comments or questions, please let us

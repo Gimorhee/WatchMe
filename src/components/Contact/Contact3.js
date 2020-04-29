@@ -7,7 +7,7 @@ export const Contact3 = () => {
   const props = useSpring({
     from: { marginTop: -5000 },
     to: { marginTop: 0 },
-    config: { duration: 1300 },
+    config: { duration: 1000 },
   });
 
   const [choice, setChoice] = useState({

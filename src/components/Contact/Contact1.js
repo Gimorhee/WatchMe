@@ -9,7 +9,7 @@ export const Contact1 = ({ history }) => {
   const props = useSpring({
     from: { marginTop: -5000 },
     to: { marginTop: 0 },
-    config: { duration: 1300 },
+    config: { duration: 1000 },
   });
 
   // Contact Content Props

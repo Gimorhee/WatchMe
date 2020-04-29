@@ -5,7 +5,7 @@ export const Nav = () => {
   return (
     <nav>
       <Link to="/">
-        <i className="fas fa-cube"></i> <span>WATCH ME</span>
+        <i className="far fa-paper-plane"></i> <span>WATCH ME</span>
       </Link>
     </nav>
   );

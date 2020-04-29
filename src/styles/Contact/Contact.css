@@ -294,6 +294,52 @@
   position: absolute;
 }
 
+.Contact .Contact-TY {
+  padding: 0 25px;
+  text-align: center;
+}
+
+.Contact .Contact-TY .Contact-Logo {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Contact .Contact-TY .Contact-Logo i {
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.Contact .Contact-TY .Contact-Logo span {
+  font-weight: 700;
+}
+
+.Contact .Contact-TY h3 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  max-width: 800px;
+  font-size: 23px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.Contact .Contact-TY a {
+  background: #7ebdb4;
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 767px) {
   .Contact .Contact-Content .Contact-A input {
     width: 625px;

@@ -9,7 +9,7 @@ export const Contact2 = ({ history }) => {
   const props = useSpring({
     from: { marginTop: -5000 },
     to: { marginTop: 0 },
-    config: { duration: 1300 },
+    config: { duration: 1000 },
   });
 
   // Contact Content Props
@@ -40,7 +40,7 @@ export const Contact2 = ({ history }) => {
     <div className="Contact">
       <animated.div style={props} className="Contact-Content">
         <div className="Contact-Q">
-          <span>1</span>
+          <span>2</span>
           <i className="fas fa-arrow-right"></i>
           <h1>Email Address *</h1>
         </div>

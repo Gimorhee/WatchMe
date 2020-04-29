@@ -217,6 +217,46 @@
       position: absolute;
     }
   }
+
+  .Contact-TY {
+    padding: 0 25px;
+    text-align: center;
+
+    .Contact-Logo {
+      font-size: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      i {
+        font-size: 35px;
+        margin-right: 15px;
+      }
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 50px;
+      max-width: 800px;
+      font-size: 23px;
+      line-height: 1.4;
+      font-weight: 500;
+    }
+
+    a {
+      background: #7ebdb4;
+      color: #fff;
+      padding: 15px 35px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
