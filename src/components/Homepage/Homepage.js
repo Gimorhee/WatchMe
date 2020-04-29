@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import { Main } from "./Main";
 import { GetInTouch } from "./GetInTouch";
+import { Service } from "./Service";
 
 import "../../styles/Homepage/Homepage.css";
 
@@ -14,6 +15,7 @@ export const Homepage = () => {
     <div className="Homepage">
       <Main />
       <GetInTouch />
+      <Service />
     </div>
   );
 };

@@ -27,8 +27,8 @@
   background-size: cover;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../../src/images/main.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../../src/images/main.jpg");
-  -webkit-box-shadow: 3px 3px 3px 3px black;
-          box-shadow: 3px 3px 3px 3px black;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +84,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding: 90px 30px;
+  padding: 110px 30px;
 }
 
 .Homepage .GetInTouch .GetInTouch-Content h3 {
@@ -118,12 +118,93 @@
   color: #204051;
 }
 
+.Homepage .Service {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.77)), to(rgba(0, 0, 0, 0.77))), url("../../../src/images/watches1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url("../../../src/images/watches1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  -webkit-box-shadow: 10px 10px 10px 10px black;
+          box-shadow: 10px 10px 10px 10px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Homepage .Service .Service-Inner {
+  width: 100%;
+  max-width: 1250px;
+  padding: 15px;
+}
+
+.Homepage .Service .Service-Inner h1 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  font-size: 30px;
+  padding: 25px;
+}
+
+.Homepage .Service .Service-Inner .Service-Contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.Homepage .Service .Service-Inner .Service-Contents .Service-Content {
+  width: calc(33.3333% - 10px);
+  margin: 5px;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.Homepage .Service .Service-Inner .Service-Contents .Service-Content i {
+  color: #7ebdb4;
+  font-size: 60px;
+  margin: 15px 0;
+}
+
+.Homepage .Service .Service-Inner .Service-Contents .Service-Content h6 {
+  color: #e7d39f;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.Homepage .Service .Service-Inner .Service-Contents .Service-Content p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
 @media only screen and (max-width: 925px) {
   .Homepage .Main .Main-Content h1 {
     font-size: 65px;
   }
   .Homepage .Main .Main-Content p {
     font-size: 17px;
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content {
+    width: calc(50% - 10px);
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content i {
+    font-size: 55px;
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content h6 {
+    font-size: 18px;
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content p {
+    font-size: 14px;
   }
 }
 
@@ -157,6 +238,21 @@
   }
   .Homepage .Main .Main-Content p {
     font-size: 14px;
+  }
+  .Homepage .Service .Service-Inner h1 {
+    font-size: 28px;
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content {
+    padding: 15px;
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content i {
+    font-size: 50px;
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content h6 {
+    font-size: 17.5px;
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content p {
+    font-size: 13.5px;
   }
 }
 /*# sourceMappingURL=Homepage.css.map */
