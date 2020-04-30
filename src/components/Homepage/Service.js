@@ -59,7 +59,7 @@ export const Service = () => {
               <h6>REPAIR</h6>
               <p>
                 There are not many companies providing services to repair the
-                premium watches but we are one of them. Our experts will repair
+                luxury watches but we are one of them. Our experts will repair
                 your watch and bring it back to the brand-new condition.
               </p>
             </div>

@@ -29,8 +29,8 @@ export const Main = () => {
         <animated.div style={bottomProps}>
           <p>
             Trusted by the world's largest clients, labels and brands to collect
-            more royalties, consult about new premium watch, fix and customize
-            with more transparency and technology than anyone else.{" "}
+            more royalties, consult about new premium & luxury watch, fix and
+            customize with more transparency and technology than anyone else.{" "}
           </p>
         </animated.div>
       </div>
