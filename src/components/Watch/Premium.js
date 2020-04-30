@@ -19,7 +19,7 @@ export const Premium = () => {
     <div className="Watches">
       <div className="Watch">
         <div className="Image-Container">
-          <img className="Less-Padding" src={rolex1} alt="" />
+          <img className="No-Padding" src={rolex1} alt="" />
         </div>
         <div className="Inner-Bg">
           <span>ROLEX</span>
@@ -27,7 +27,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="Less-Padding" src={rolex2} alt="" />
+          <img className="No-Padding" src={rolex2} alt="" />
         </div>
         <div className="Inner-Bg">
           <span>ROLEX</span>
@@ -35,7 +35,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="Less-Padding" src={rolex3} alt="" />
+          <img className="No-Padding" src={rolex3} alt="" />
         </div>
         <div className="Inner-Bg">
           <span>ROLEX</span>
@@ -43,7 +43,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="Less-Padding" src={rolex4} alt="" />
+          <img className="No-Padding" src={rolex4} alt="" />
         </div>
         <div className="Inner-Bg">
           <span>ROLEX</span>

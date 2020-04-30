@@ -129,6 +129,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch .Image-Container img {
@@ -138,8 +139,12 @@
   padding: 10%;
 }
 
-.Watch-Container .Watch-Bottom .Watches .Watch .Image-Container .Less-Padding {
+.Watch-Container .Watch-Bottom .Watches .Watch .Image-Container .No-Padding {
   padding: 0%;
+}
+
+.Watch-Container .Watch-Bottom .Watches .Watch .Image-Container .More-Padding {
+  padding: 15%;
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch .Inner-Bg {
