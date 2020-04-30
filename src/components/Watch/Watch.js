@@ -62,6 +62,10 @@ export const Watch = () => {
           <button onClick={() => showLuxury()} className={luxury && "Current"}>
             Luxury
           </button>
+          <p>
+            Price Range: {regular && "$200 ~ $500"}{" "}
+            {premium && "$2,000 ~ 5,000"} {luxury && "$7,500 ~ $50,000"}{" "}
+          </p>
         </animated.div>
         <animated.div style={bottomProps} className="Watch-Bottom">
           {regular && <Regular />}
