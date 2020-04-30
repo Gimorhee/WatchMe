@@ -145,4 +145,36 @@
   font-weight: 600;
   padding: 5px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .Watch-Container .Watch-Bottom .Watches .Watch {
+    width: 33.3333333%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Watch-Container .Watch-Bottom .Watches .Watch .Inner-Bg span {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Watch-Container .Watch-Bottom .Watches .Watch {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Watch-Container .Watch-Top h1 {
+    font-size: 28px;
+  }
+  .Watch-Container .Watch-Top button,
+  .Watch-Container .Watch-Top .Current {
+    font-size: 14px;
+    padding: 15px;
+  }
+  .Watch-Container .Watch-Bottom .Watches .Watch .Inner-Bg span {
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=Watch.css.map */

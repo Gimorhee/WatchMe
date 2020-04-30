@@ -132,3 +132,71 @@
     }
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .Watch-Container {
+    .Watch-Bottom {
+      .Watches {
+        .Watch {
+          width: 33.3333333%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Watch-Container {
+    .Watch-Bottom {
+      .Watches {
+        .Watch {
+          .Inner-Bg {
+            span {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Watch-Container {
+    .Watch-Bottom {
+      .Watches {
+        .Watch {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Watch-Container {
+    .Watch-Top {
+      h1 {
+        font-size: 28px;
+      }
+
+      button,
+      .Current {
+        font-size: 14px;
+        padding: 15px;
+      }
+    }
+
+    .Watch-Bottom {
+      .Watches {
+        .Watch {
+          .Inner-Bg {
+            span {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
