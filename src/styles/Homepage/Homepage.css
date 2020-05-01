@@ -66,10 +66,9 @@
 }
 
 .Homepage .GetInTouch {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#10212b), to(#204051));
-  background-image: linear-gradient(to bottom, #10212b, #204051);
+  background: #867360;
   height: auto;
-  color: #ececec;
+  color: #fff;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,7 +100,7 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  background: #719194;
+  background: #362b20;
   border: none;
   border-radius: 4px;
   padding: 17px 50px;
@@ -116,12 +115,12 @@
 
 .Homepage .GetInTouch .GetInTouch-Content a:hover {
   background: #fff;
-  color: #204051;
+  color: #362b20;
 }
 
 .Homepage .Service {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url("../../../src/images/watches1.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../../../src/images/watches1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../../../src/images/watches1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../../src/images/watches1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,13 +171,13 @@
 }
 
 .Homepage .Service .Service-Inner .Service-Contents .Service-Content i {
-  color: #7ebdb4;
+  color: #c5a98e;
   font-size: 50px;
   margin: 15px 0;
 }
 
 .Homepage .Service .Service-Inner .Service-Contents .Service-Content h6 {
-  color: #7ebdb4;
+  color: #c5a98e;
   font-size: 20px;
   margin: 15px 0;
 }

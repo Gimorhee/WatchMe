@@ -1,7 +1,7 @@
 .Watch-Container {
-  background: #204051;
-  background-image: linear-gradient(to bottom, #000, #4993bb);
-  color: #fff;
+  // background: #204051;
+  // background-image: linear-gradient(to bottom, #000, #4993bb);
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,12 +17,13 @@
     h1 {
       font-size: 30px;
       margin-bottom: 15px;
+      color: #362b20;
     }
 
     p {
       margin-left: 5px;
       margin-top: 10px;
-      color: #83cfc4;
+      color: #867360;
       font-size: 18px;
       font-weight: 600;
     }
@@ -30,7 +31,6 @@
     button {
       border: none;
       background: none;
-      color: #fff;
       padding: 15px 30px;
       border-radius: 5px;
       margin: 5px;
@@ -40,22 +40,23 @@
       cursor: pointer;
       transition: 0.5s ease-in-out all;
       font-family: "Exo 2", sans-serif;
+      color: #362b20;
 
       &:focus {
         outline: none;
       }
 
       &:hover {
-        background: #fff;
-        color: #204051;
+        background: #867360;
+        color: #fff;
         font-weight: 600;
       }
     }
 
     .Current {
       border: none;
-      background: #fff;
-      color: #204051;
+      background: #867360;
+      color: #fff;
       padding: 15px 30px;
       border-radius: 5px;
       margin: 5px;
@@ -69,13 +70,13 @@
   }
 
   .Watch-Bottom {
-    width: 100%;
-
     .Watches {
       width: 100%;
+      max-width: 1250px;
       display: flex;
       flex-wrap: wrap;
       overflow: hidden;
+      margin: auto;
 
       .Watch {
         width: 25%;
@@ -83,7 +84,7 @@
         position: relative;
         &:hover {
           .Inner-Bg {
-            background: #204051;
+            background: #867360;
             height: 100%;
             opacity: 0.85;
 
@@ -111,19 +112,19 @@
           img {
             width: 90%;
             transition: 0.6s ease-in-out all;
-            padding: 15%;
+            padding: 8%;
           }
 
           .No-Padding {
-            padding: 5%;
+            padding: 0%;
           }
 
           .Little-Padding {
-            padding: 10%;
+            padding: 1%;
           }
 
           .More-Padding {
-            padding: 20%;
+            padding: 16%;
           }
         }
 

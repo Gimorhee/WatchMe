@@ -1,5 +1,6 @@
 .Contact {
   background-image: linear-gradient(to bottom, #10212b, #204051);
+  background: #867360;
   height: 100vh;
 
   color: #ececec;
@@ -36,7 +37,7 @@
         margin-left: 30px;
         width: 700px;
         border: none;
-        border-bottom: 1px solid #6f9499;
+        border-bottom: 1px solid #362b20;
         height: 40px;
         background: none;
         color: #ececec;
@@ -50,7 +51,7 @@
         &::placeholder {
           font-size: 28px;
           font-weight: 600;
-          color: #6f9499;
+          color: #362b20;
           font-family: "Exo 2", sans-serif;
         }
       }
@@ -67,7 +68,7 @@
       a {
         color: #fff;
         text-decoration: none;
-        background: #719194;
+        background: #362b20;
         padding: 10px 15px;
         border-radius: 5px;
         font-weight: 700;
@@ -99,7 +100,7 @@
       margin-left: 30px;
       width: 95%;
       border: none;
-      border-bottom: 1px solid #6f9499;
+      border-bottom: 1px solid #362b20;
       height: 40px;
       background: none;
       color: #ececec;
@@ -113,7 +114,7 @@
       &::placeholder {
         font-size: 25px;
         font-weight: 600;
-        color: #6f9499;
+        color: #362b20;
         font-family: "Exo 2", sans-serif;
       }
     }
@@ -126,7 +127,7 @@
       margin-top: 20px;
 
       .Content-Choice {
-        background: #365869;
+        background: #534231;
         color: #fff;
         border: 1px solid #dadada;
         border-radius: 5px;
@@ -165,7 +166,7 @@
       }
 
       .Chosen {
-        background: #47748b;
+        background: #362b20;
         color: #fff;
         border: 2px solid #fff;
         border-radius: 5px;
@@ -195,7 +196,7 @@
             border-radius: 5px;
             margin-right: 10px;
             background: #fff;
-            color: #295064;
+            color: #362b20;
           }
 
           p {
@@ -210,7 +211,7 @@
       margin-left: 30px;
       margin-top: 20px;
       font-size: 15px;
-      background: #900c3f;
+      background: #b7472a;
       padding: 5px;
       border-radius: 4px;
       text-align: center;
@@ -248,7 +249,7 @@
     }
 
     a {
-      background: #719194;
+      background: #362b20;
       color: #fff;
       padding: 15px 35px;
       border-radius: 5px;

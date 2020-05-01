@@ -21,7 +21,7 @@ export const Contact6 = ({ history }) => {
 
   const onKeyPress = (e) => {
     if (e.key === "Enter" && contactInfo) {
-      history.push("/contact6");
+      history.push("/contact7");
     } else if (e.key === "Enter" && !noContent) {
       setShowWarning(true);
     }

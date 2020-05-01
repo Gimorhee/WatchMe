@@ -61,9 +61,9 @@
 
   // GETINTOUCH COMPONENT
   .GetInTouch {
-    background-image: linear-gradient(to bottom, #10212b, #204051);
+    background: #867360;
     height: auto;
-    color: #ececec;
+    color: #fff;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -86,7 +86,7 @@
         text-decoration: none;
         font-size: 18px;
         font-weight: 600;
-        background: #719194;
+        background: #362b20;
         border: none;
         border-radius: 4px;
         padding: 17px 50px;
@@ -99,7 +99,7 @@
 
         &:hover {
           background: #fff;
-          color: #204051;
+          color: #362b20;
         }
       }
     }
@@ -107,7 +107,7 @@
 
   // SERVICE COMPONENT
   .Service {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url("../../../src/images/watches1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,13 +147,13 @@
           text-align: center;
 
           i {
-            color: #7ebdb4;
+            color: #c5a98e;
             font-size: 50px;
             margin: 15px 0;
           }
 
           h6 {
-            color: #7ebdb4;
+            color: #c5a98e;
             font-size: 20px;
             margin: 15px 0;
           }

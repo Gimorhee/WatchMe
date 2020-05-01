@@ -46,7 +46,7 @@ export const Contact5 = ({ history }) => {
         </div>
         {contactInfo && (
           <div className="Contact-S">
-            <Link to="/contact5">
+            <Link to="/contact6">
               OK{" "}
               <span>
                 <i className="fas fa-check"></i>{" "}

@@ -1,8 +1,5 @@
 .Watch-Container {
-  background: #204051;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#4993bb));
-  background-image: linear-gradient(to bottom, #000, #4993bb);
-  color: #fff;
+  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,12 +25,13 @@
 .Watch-Container .Watch-Top h1 {
   font-size: 30px;
   margin-bottom: 15px;
+  color: #362b20;
 }
 
 .Watch-Container .Watch-Top p {
   margin-left: 5px;
   margin-top: 10px;
-  color: #83cfc4;
+  color: #867360;
   font-size: 18px;
   font-weight: 600;
 }
@@ -41,6 +39,32 @@
 .Watch-Container .Watch-Top button {
   border: none;
   background: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+  font-family: "Exo 2", sans-serif;
+  color: #362b20;
+}
+
+.Watch-Container .Watch-Top button:focus {
+  outline: none;
+}
+
+.Watch-Container .Watch-Top button:hover {
+  background: #867360;
+  color: #fff;
+  font-weight: 600;
+}
+
+.Watch-Container .Watch-Top .Current {
+  border: none;
+  background: #867360;
   color: #fff;
   padding: 15px 30px;
   border-radius: 5px;
@@ -54,44 +78,16 @@
   font-family: "Exo 2", sans-serif;
 }
 
-.Watch-Container .Watch-Top button:focus {
-  outline: none;
-}
-
-.Watch-Container .Watch-Top button:hover {
-  background: #fff;
-  color: #204051;
-  font-weight: 600;
-}
-
-.Watch-Container .Watch-Top .Current {
-  border: none;
-  background: #fff;
-  color: #204051;
-  padding: 15px 30px;
-  border-radius: 5px;
-  margin: 5px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
-  cursor: pointer;
-  -webkit-transition: 0.5s ease-in-out all;
-  transition: 0.5s ease-in-out all;
-  font-family: "Exo 2", sans-serif;
-}
-
-.Watch-Container .Watch-Bottom {
-  width: 100%;
-}
-
 .Watch-Container .Watch-Bottom .Watches {
   width: 100%;
+  max-width: 1250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   overflow: hidden;
+  margin: auto;
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch {
@@ -101,7 +97,7 @@
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch:hover .Inner-Bg {
-  background: #204051;
+  background: #867360;
   height: 100%;
   opacity: 0.85;
 }
@@ -135,19 +131,19 @@
   width: 90%;
   -webkit-transition: 0.6s ease-in-out all;
   transition: 0.6s ease-in-out all;
-  padding: 15%;
+  padding: 8%;
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch .Image-Container .No-Padding {
-  padding: 5%;
+  padding: 0%;
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch .Image-Container .Little-Padding {
-  padding: 10%;
+  padding: 1%;
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch .Image-Container .More-Padding {
-  padding: 20%;
+  padding: 16%;
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch .Inner-Bg {
