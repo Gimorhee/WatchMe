@@ -37,12 +37,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   margin-bottom: 25px;
 }
 
 .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info {
-  width: 33.33333%;
+  width: calc(33.333333% - 20px);
   margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,5 +73,88 @@
   color: #c5a98e;
   margin: 0 5px;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Details .Details-Bottom .Details-Infos .Details-Info {
+    margin-bottom: 10px;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info {
+    width: calc(33.333333% - 10px);
+    margin: 5px;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info p {
+    font-size: 22px;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info span {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Details .Details-Top h1 {
+    font-size: 30px;
+  }
+  .Details .Details-Top p {
+    font-size: 15px;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info {
+    width: calc(50% - 10px);
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info span {
+    font-size: 22px;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Info-Quote {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Details .Details-Top h1 {
+    font-size: 25px;
+  }
+  .Details .Details-Top p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Details .Details-Top h1 {
+    font-size: 20px;
+  }
+  .Details .Details-Top p {
+    font-size: 13.5px;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info {
+    width: calc(100% - 10px);
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info p {
+    font-size: 15px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info span {
+    font-size: 18px;
+  }
+  .Details .Details-Bottom .Details-Infos .Details-Info .Info-Quote {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
 }
 /*# sourceMappingURL=Details.css.map */

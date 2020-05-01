@@ -33,11 +33,12 @@
     .Details-Infos {
       .Details-Info {
         display: flex;
+        flex-wrap: wrap;
         width: 100%;
         margin-bottom: 25px;
 
         .Inner-Info {
-          width: 33.33333%;
+          width: calc(33.333333% - 20px);
           margin: 10px;
 
           display: flex;
@@ -60,6 +61,125 @@
             color: #c5a98e;
             margin: 0 5px;
             font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Details {
+    .Details-Bottom {
+      .Details-Infos {
+        .Details-Info {
+          margin-bottom: 10px;
+
+          .Inner-Info {
+            width: calc(33.333333% - 10px);
+            margin: 5px;
+
+            p {
+              font-size: 22px;
+            }
+
+            span {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Details {
+    .Details-Top {
+      h1 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .Details-Bottom {
+      .Details-Infos {
+        .Details-Info {
+          .Inner-Info {
+            width: calc(50% - 10px);
+            order: 1;
+
+            p {
+              font-size: 18px;
+              margin-bottom: 25px;
+              line-height: 1.2;
+            }
+
+            span {
+              font-size: 22px;
+            }
+          }
+
+          .Info-Quote {
+            width: 100%;
+            order: 2;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Details {
+    .Details-Top {
+      h1 {
+        font-size: 25px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Details {
+    .Details-Top {
+      h1 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 13.5px;
+      }
+    }
+
+    .Details-Bottom {
+      .Details-Infos {
+        .Details-Info {
+          .Inner-Info {
+            width: calc(100% - 10px);
+            order: 1;
+
+            p {
+              font-size: 15px;
+              margin-bottom: 25px;
+              line-height: 1.2;
+            }
+
+            span {
+              font-size: 18px;
+            }
+          }
+
+          .Info-Quote {
+            width: 100%;
+            order: 2;
           }
         }
       }
