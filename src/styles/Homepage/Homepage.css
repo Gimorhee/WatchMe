@@ -66,7 +66,8 @@
 }
 
 .Homepage .GetInTouch {
-  background: #204051;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#10212b), to(#204051));
+  background-image: linear-gradient(to bottom, #10212b, #204051);
   height: auto;
   color: #ececec;
   text-transform: uppercase;
@@ -100,7 +101,7 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  background: #84a9ac;
+  background: #719194;
   border: none;
   border-radius: 4px;
   padding: 17px 50px;
@@ -119,8 +120,8 @@
 }
 
 .Homepage .Service {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.77)), to(rgba(0, 0, 0, 0.77))), url("../../../src/images/watches1.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url("../../../src/images/watches1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url("../../../src/images/watches1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../../../src/images/watches1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -146,7 +147,7 @@
 }
 
 .Homepage .Service .Service-Inner h1 {
-  color: #fff;
+  color: #dadada;
   text-transform: uppercase;
   margin-bottom: 45px;
   font-size: 30px;
@@ -166,7 +167,7 @@
   width: calc(33.3333% - 10px);
   margin: 5px;
   padding: 25px;
-  color: #fff;
+  color: #dadada;
   text-align: center;
 }
 
@@ -177,7 +178,7 @@
 }
 
 .Homepage .Service .Service-Inner .Service-Contents .Service-Content h6 {
-  color: #e7d39f;
+  color: #7ebdb4;
   font-size: 20px;
   margin: 15px 0;
 }
