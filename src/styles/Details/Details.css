@@ -1,0 +1,75 @@
+.Details {
+  min-height: 100vh;
+  background: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../../../src/images/watches1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../../src/images/watches1.jpg");
+  background: #1d1d1d;
+  -webkit-box-shadow: 3px 3px 3px 6px grey;
+          box-shadow: 3px 3px 3px 6px grey;
+  padding: 100px 25px;
+}
+
+.Details .Details-Top {
+  max-width: 950px;
+  margin: auto;
+}
+
+.Details .Details-Top h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #c5a98e;
+  margin-bottom: 25px;
+}
+
+.Details .Details-Top p {
+  color: #dadada;
+  font-size: 17.5px;
+  line-height: 1.5;
+}
+
+.Details .Details-Bottom {
+  max-width: 1050px;
+  margin: 75px auto;
+  margin-bottom: 5px;
+}
+
+.Details .Details-Bottom .Details-Infos .Details-Info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info {
+  width: 33.33333%;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info p {
+  color: #dadada;
+  font-size: 27px;
+  line-height: 1.5;
+}
+
+.Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info span {
+  color: #c5a98e;
+  margin: 0 5px;
+  font-size: 30px;
+}
+/*# sourceMappingURL=Details.css.map */

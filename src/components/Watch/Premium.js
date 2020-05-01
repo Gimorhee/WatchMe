@@ -9,10 +9,10 @@ import rolex1 from "../../images/premium/rolex1.png";
 import rolex2 from "../../images/premium/rolex2.png";
 import rolex3 from "../../images/premium/rolex3.png";
 import rolex4 from "../../images/premium/rolex4.png";
-import zenith1 from "../../images/premium/zenith1.jpg";
-import zenith2 from "../../images/premium/zenith2.jpg";
-import zenith3 from "../../images/premium/zenith3.jpg";
-import zenith4 from "../../images/premium/zenith4.jpg";
+import zenith1 from "../../images/premium/zenith1.png";
+import zenith2 from "../../images/premium/zenith2.png";
+import zenith3 from "../../images/premium/zenith3.png";
+import zenith4 from "../../images/premium/zenith4.png";
 
 export const Premium = () => {
   return (

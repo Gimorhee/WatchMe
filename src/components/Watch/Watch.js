@@ -65,7 +65,7 @@ export const Watch = () => {
     const bottomProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 700,
+      delay: 500,
       config: { duration: 1000 },
     });
 

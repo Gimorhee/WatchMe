@@ -12,13 +12,13 @@
           align-items: center;
   -webkit-box-shadow: 3px 3px 3px 6px black;
           box-shadow: 3px 3px 3px 6px black;
+  padding: 75px 0;
 }
 
 .Watch-Container .Watch-Top {
   width: 100%;
   max-width: 1250px;
   padding: 40px;
-  margin-top: 75px;
   text-transform: uppercase;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch .Image-Container .More-Padding {
-  padding: 16%;
+  padding: 15%;
 }
 
 .Watch-Container .Watch-Bottom .Watches .Watch .Inner-Bg {
@@ -191,6 +191,9 @@
 }
 
 @media only screen and (max-width: 550px) {
+  .Watch-Container {
+    padding: 40px 0;
+  }
   .Watch-Container .Watch-Top h1 {
     font-size: 28px;
   }

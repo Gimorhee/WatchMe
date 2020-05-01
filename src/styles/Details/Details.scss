@@ -1,0 +1,68 @@
+.Details {
+  min-height: 100vh;
+  background: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../../src/images/watches1.jpg");
+  background: #1d1d1d;
+  box-shadow: 3px 3px 3px 6px grey;
+  padding: 100px 25px;
+
+  .Details-Top {
+    max-width: 950px;
+    margin: auto;
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 40px;
+      color: #c5a98e;
+      margin-bottom: 25px;
+    }
+
+    p {
+      color: #dadada;
+      font-size: 17.5px;
+      line-height: 1.5;
+    }
+  }
+
+  .Details-Bottom {
+    max-width: 1050px;
+    margin: 75px auto;
+    margin-bottom: 5px;
+
+    .Details-Infos {
+      .Details-Info {
+        display: flex;
+        width: 100%;
+        margin-bottom: 25px;
+
+        .Inner-Info {
+          width: 33.33333%;
+          margin: 10px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+
+          img {
+            width: 100%;
+            border-radius: 4px;
+          }
+
+          p {
+            color: #dadada;
+            font-size: 27px;
+            line-height: 1.5;
+          }
+
+          span {
+            color: #c5a98e;
+            margin: 0 5px;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
