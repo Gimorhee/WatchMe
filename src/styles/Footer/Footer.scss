@@ -101,6 +101,22 @@
           margin-right: 10px;
         }
       }
+
+      .Bottom-SNS {
+        margin-top: 10px;
+        color: #dadada;
+        transition: 0.5s ease-in-out all;
+        cursor: pointer;
+
+        i {
+          font-size: 27px;
+          margin: 5px;
+
+          &:hover {
+            color: #1d1d1d;
+          }
+        }
+      }
     }
   }
 }

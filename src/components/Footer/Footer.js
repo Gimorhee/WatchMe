@@ -45,6 +45,13 @@ export const Footer = () => {
             <span>|</span>
             <a href="#i">CATALOG</a>
           </div>
+          <div className="Bottom-SNS">
+            <i className="fab fa-facebook-square"></i>
+            <i className="fab fa-instagram-square"></i>
+            <i className="fab fa-twitter-square"></i>
+            <i className="fab fa-youtube-square"></i>
+            <i className="fas fa-envelope"></i>
+          </div>
         </div>
       </div>
     </div>

@@ -118,6 +118,23 @@
   margin-right: 10px;
 }
 
+.Footer .Footer-Inner .Footer-Bottom .Bottom-SNS {
+  margin-top: 10px;
+  color: #dadada;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+  cursor: pointer;
+}
+
+.Footer .Footer-Inner .Footer-Bottom .Bottom-SNS i {
+  font-size: 27px;
+  margin: 5px;
+}
+
+.Footer .Footer-Inner .Footer-Bottom .Bottom-SNS i:hover {
+  color: #1d1d1d;
+}
+
 @media only screen and (max-width: 767px) {
   .Footer .Footer-Inner .Footer-Center {
     -webkit-box-orient: vertical;
