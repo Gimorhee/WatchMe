@@ -32,7 +32,7 @@ export const Details = () => {
     });
 
     return (
-      <div className="Details">
+      <div id="details" className="Details">
         <animated.div style={topProps} className="Details-Top">
           <h1>
             We craft our product with <br /> scrupulous attention to detail.

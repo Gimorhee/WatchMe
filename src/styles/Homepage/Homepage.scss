@@ -60,7 +60,8 @@
   }
 
   // GETINTOUCH COMPONENT
-  .GetInTouch {
+  .GetInTouch,
+  .GetInTouch2 {
     background: #867360;
     height: auto;
     color: #fff;
@@ -71,6 +72,7 @@
     align-items: center;
     text-align: center;
     padding: 110px 30px;
+    box-shadow: 3px 3px 3px 6px grey;
 
     .GetInTouch-Content {
       h3 {
@@ -101,6 +103,23 @@
           background: #fff;
           color: #252525;
         }
+      }
+    }
+  }
+
+  .GetInTouch2 {
+    background: #1d1d1d;
+    box-shadow: none;
+    padding-top: 50px;
+
+    .GetInTouch-Content {
+      h3 {
+        color: #c5a98e;
+      }
+
+      a {
+        background: #dadada;
+        color: #1d1d1d;
       }
     }
   }

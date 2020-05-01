@@ -65,7 +65,8 @@
   line-height: 1.4;
 }
 
-.Homepage .GetInTouch {
+.Homepage .GetInTouch,
+.Homepage .GetInTouch2 {
   background: #867360;
   height: auto;
   color: #fff;
@@ -85,9 +86,12 @@
           align-items: center;
   text-align: center;
   padding: 110px 30px;
+  -webkit-box-shadow: 3px 3px 3px 6px grey;
+          box-shadow: 3px 3px 3px 6px grey;
 }
 
-.Homepage .GetInTouch .GetInTouch-Content h3 {
+.Homepage .GetInTouch .GetInTouch-Content h3,
+.Homepage .GetInTouch2 .GetInTouch-Content h3 {
   font-weight: 600;
   font-size: 24px;
   letter-spacing: 1px;
@@ -96,7 +100,8 @@
   max-width: 950px;
 }
 
-.Homepage .GetInTouch .GetInTouch-Content a {
+.Homepage .GetInTouch .GetInTouch-Content a,
+.Homepage .GetInTouch2 .GetInTouch-Content a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
@@ -109,13 +114,31 @@
   transition: 0.4s ease-in-out all;
 }
 
-.Homepage .GetInTouch .GetInTouch-Content a:focus {
+.Homepage .GetInTouch .GetInTouch-Content a:focus,
+.Homepage .GetInTouch2 .GetInTouch-Content a:focus {
   outline: none;
 }
 
-.Homepage .GetInTouch .GetInTouch-Content a:hover {
+.Homepage .GetInTouch .GetInTouch-Content a:hover,
+.Homepage .GetInTouch2 .GetInTouch-Content a:hover {
   background: #fff;
   color: #252525;
+}
+
+.Homepage .GetInTouch2 {
+  background: #1d1d1d;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-top: 50px;
+}
+
+.Homepage .GetInTouch2 .GetInTouch-Content h3 {
+  color: #c5a98e;
+}
+
+.Homepage .GetInTouch2 .GetInTouch-Content a {
+  background: #dadada;
+  color: #1d1d1d;
 }
 
 .Homepage .Service {

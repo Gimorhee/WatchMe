@@ -70,7 +70,7 @@ export const Watch = () => {
     });
 
     return (
-      <div className="Watch-Container">
+      <div id="watch" className="Watch-Container">
         <animated.div style={topProps} className="Watch-Top">
           <h1>Watches</h1>
           <button

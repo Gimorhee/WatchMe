@@ -6,6 +6,7 @@ import { Service } from "./Service";
 import { Watch } from "../Watch/Watch";
 import { Details } from "../Details/Details";
 import { GetInTouch2 } from "./GetInTouch2";
+import { Footer } from "../Footer/Footer";
 
 import "../../styles/Homepage/Homepage.css";
 
@@ -22,6 +23,7 @@ export const Homepage = () => {
       <Watch />
       <Details />
       <GetInTouch2 />
+      <Footer />
     </div>
   );
 };

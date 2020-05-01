@@ -20,7 +20,7 @@ export const GetInTouch2 = () => {
     });
 
     return (
-      <div className="GetInTouch">
+      <div className="GetInTouch GetInTouch2">
         <div className="GetInTouch-Content">
           <animated.div style={topProps}>
             <h3>Experience our superior service and luxury timepieces</h3>

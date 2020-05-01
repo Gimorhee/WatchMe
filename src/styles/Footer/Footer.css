@@ -1,0 +1,158 @@
+.Footer {
+  background: #867360;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  height: auto;
+}
+
+.Footer .Footer-Inner {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 35px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 35vh;
+}
+
+.Footer .Footer-Inner .Footer-Top {
+  margin-top: 35px;
+  line-height: 1.5;
+}
+
+.Footer .Footer-Inner .Footer-Top a {
+  color: #dadada;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+}
+
+.Footer .Footer-Inner .Footer-Top a:hover {
+  color: #1d1d1d;
+}
+
+.Footer .Footer-Inner .Footer-Top span {
+  color: #dadada;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.Footer .Footer-Inner .Footer-Center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer .Footer-Inner .Footer-Center a {
+  color: #dadada;
+  text-decoration: none;
+  font-size: 35px;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+}
+
+.Footer .Footer-Inner .Footer-Center a:hover {
+  color: #1d1d1d;
+}
+
+.Footer .Footer-Inner .Footer-Center .Footer-Button {
+  font-size: 20px;
+  background: #1d1d1d;
+  padding: 17px 30px;
+  border-radius: 4px;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.Footer .Footer-Inner .Footer-Center .Footer-Button:focus {
+  outline: none;
+}
+
+.Footer .Footer-Inner .Footer-Center .Footer-Button:hover {
+  background: #000;
+  color: #dadada;
+}
+
+.Footer .Footer-Inner .Footer-Bottom {
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.Footer .Footer-Inner .Footer-Bottom .Bottom-Inner {
+  color: #dadada;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.Footer .Footer-Inner .Footer-Bottom .Bottom-Inner a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #dadada;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+}
+
+.Footer .Footer-Inner .Footer-Bottom .Bottom-Inner a:hover {
+  color: #1d1d1d;
+}
+
+.Footer .Footer-Inner .Footer-Bottom .Bottom-Inner p {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .Footer .Footer-Inner .Footer-Center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .Footer-Inner .Footer-Center i {
+    margin: 50px 0;
+  }
+  .Footer .Footer-Inner .Footer-Bottom .Bottom-Inner {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Footer .Footer-Inner .Footer-Center .Footer-Button {
+    font-size: 17px;
+    padding: 17px 25px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Footer .Footer-Inner .Footer-Top {
+    font-size: 13px;
+  }
+  .Footer .Footer-Inner .Footer-Top a {
+    font-size: 13px;
+  }
+  .Footer .Footer-Inner .Footer-Center .Footer-Button {
+    font-size: 13px;
+    padding: 15px 23px;
+  }
+  .Footer .Footer-Inner .Footer-Bottom .Bottom-Inner {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

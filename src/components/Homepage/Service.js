@@ -21,7 +21,7 @@ export const Service = () => {
     });
 
     return (
-      <div className="Service">
+      <div id="service" className="Service">
         <div className="Service-Inner">
           <animated.div style={topProps}>
             <h1>Services</h1>
