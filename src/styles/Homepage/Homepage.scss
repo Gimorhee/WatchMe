@@ -118,6 +118,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 35px;
 
     .Service-Inner {
       width: 100%;
@@ -147,7 +148,7 @@
 
           i {
             color: #7ebdb4;
-            font-size: 60px;
+            font-size: 50px;
             margin: 15px 0;
           }
 
@@ -267,7 +268,7 @@
     .Service {
       .Service-Inner {
         h1 {
-          font-size: 28px;
+          font-size: 25px;
         }
 
         .Service-Contents {

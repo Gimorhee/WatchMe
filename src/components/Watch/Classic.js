@@ -1,118 +1,118 @@
 import React from "react";
 
 // WATCH IMAGES
-import bp1 from "../../images/premium/bp1.png";
-import bp2 from "../../images/premium/bp2.png";
-import bp3 from "../../images/premium/bp3.png";
-import bp4 from "../../images/premium/bp4.png";
-import rolex1 from "../../images/premium/rolex1.png";
-import rolex2 from "../../images/premium/rolex2.png";
-import rolex3 from "../../images/premium/rolex3.png";
-import rolex4 from "../../images/premium/rolex4.png";
-import zenith1 from "../../images/premium/zenith1.jpg";
-import zenith2 from "../../images/premium/zenith2.jpg";
-import zenith3 from "../../images/premium/zenith3.jpg";
-import zenith4 from "../../images/premium/zenith4.jpg";
+import cs1 from "../../images/classic/cs1.png";
+import cs2 from "../../images/classic/cs2.png";
+import cs3 from "../../images/classic/cs3.png";
+import cs4 from "../../images/classic/cs4.png";
+import iwc1 from "../../images/classic/iwc1.png";
+import iwc2 from "../../images/classic/iwc2.png";
+import iwc3 from "../../images/classic/iwc3.png";
+import iwc4 from "../../images/classic/iwc4.png";
+import omega1 from "../../images/classic/omega1.jpg";
+import omega2 from "../../images/classic/omega2.jpg";
+import omega3 from "../../images/classic/omega3.jpg";
+import omega4 from "../../images/classic/omega4.jpg";
 
-export const Premium = () => {
+export const Classic = () => {
   return (
     <div className="Watches">
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={rolex1} alt="" />
+          <img className="Little-Padding" src={cs1} alt="" />
         </div>
         <div className="Inner-Bg">
-          <span>ROLEX</span>
+          <span>CHRONOSWISS</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={rolex2} alt="" />
+          <img className="Little-Padding" src={cs2} alt="" />
         </div>
         <div className="Inner-Bg">
-          <span>ROLEX</span>
+          <span>CHRONOSWISS</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={rolex3} alt="" />
+          <img className="Little-Padding" src={cs3} alt="" />
         </div>
         <div className="Inner-Bg">
-          <span>ROLEX</span>
+          <span>CHRONOSWISS</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={rolex4} alt="" />
+          <img className="Little-Padding" src={cs4} alt="" />
         </div>
         <div className="Inner-Bg">
-          <span>ROLEX</span>
-        </div>
-      </div>
-
-      <div className="Watch">
-        <div className="Image-Container">
-          <img src={bp1} alt="" />
-        </div>
-        <div className="Inner-Bg">
-          <span>BLANCPAIN</span>
-        </div>
-      </div>
-      <div className="Watch">
-        <div className="Image-Container">
-          <img src={bp2} alt="" />
-        </div>
-        <div className="Inner-Bg">
-          <span>BLANCPAIN</span>
-        </div>
-      </div>
-      <div className="Watch">
-        <div className="Image-Container">
-          <img src={bp3} alt="" />
-        </div>
-        <div className="Inner-Bg">
-          <span>BLANCPAIN</span>
-        </div>
-      </div>
-      <div className="Watch">
-        <div className="Image-Container">
-          <img src={bp4} alt="" />
-        </div>
-        <div className="Inner-Bg">
-          <span>BLANCPAIN</span>
+          <span>CHRONOSWISS</span>
         </div>
       </div>
 
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={zenith1} alt="" />
+          <img className="More-Padding" src={iwc1} alt="" />
         </div>
         <div className="Inner-Bg">
-          <span>ZENITH</span>
+          <span>IWC</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={zenith2} alt="" />
+          <img className="More-Padding" src={iwc2} alt="" />
         </div>
         <div className="Inner-Bg">
-          <span>ZENITH</span>
+          <span>IWC</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={zenith3} alt="" />
+          <img className="More-Padding" src={iwc3} alt="" />
         </div>
         <div className="Inner-Bg">
-          <span>ZENITH</span>
+          <span>IWC</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={zenith4} alt="" />
+          <img className="More-Padding" src={iwc4} alt="" />
         </div>
         <div className="Inner-Bg">
-          <span>ZENITH</span>
+          <span>IWC</span>
+        </div>
+      </div>
+
+      <div className="Watch">
+        <div className="Image-Container">
+          <img className="More-Padding" src={omega1} alt="" />
+        </div>
+        <div className="Inner-Bg">
+          <span>OMEGA</span>
+        </div>
+      </div>
+      <div className="Watch">
+        <div className="Image-Container">
+          <img className="More-Padding" src={omega2} alt="" />
+        </div>
+        <div className="Inner-Bg">
+          <span>OMEGA</span>
+        </div>
+      </div>
+      <div className="Watch">
+        <div className="Image-Container">
+          <img className="More-Padding" src={omega3} alt="" />
+        </div>
+        <div className="Inner-Bg">
+          <span>OMEGA</span>
+        </div>
+      </div>
+      <div className="Watch">
+        <div className="Image-Container">
+          <img className="More-Padding" src={omega4} alt="" />
+        </div>
+        <div className="Inner-Bg">
+          <span>OMEGA</span>
         </div>
       </div>
     </div>

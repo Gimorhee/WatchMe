@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Regular } from "./Regular";
+import { Classic } from "./Classic";
 import { Premium } from "./Premium";
 import { Luxury } from "./Luxury";
 import { useSpring, animated } from "react-spring";
@@ -10,22 +11,47 @@ import "../../styles/Watch/Watch.css";
 export const Watch = () => {
   const [component, setComponent] = useState({
     regular: true,
+    classy: false,
     premium: false,
     luxury: false,
   });
 
-  const { regular, premium, luxury } = component;
+  const { regular, classic, premium, luxury } = component;
 
   const showRegular = () => {
-    setComponent({ regular: true, premium: false, luxury: false });
+    setComponent({
+      regular: true,
+      classic: false,
+      premium: false,
+      luxury: false,
+    });
+  };
+
+  const showClassic = () => {
+    setComponent({
+      regular: false,
+      classic: true,
+      premium: false,
+      luxury: false,
+    });
   };
 
   const showPremium = () => {
-    setComponent({ regular: false, premium: true, luxury: false });
+    setComponent({
+      regular: false,
+      classic: false,
+      premium: true,
+      luxury: false,
+    });
   };
 
   const showLuxury = () => {
-    setComponent({ regular: false, premium: false, luxury: true });
+    setComponent({
+      regular: false,
+      classic: false,
+      premium: false,
+      luxury: true,
+    });
   };
 
   // ANIMATION PROPS
@@ -51,7 +77,13 @@ export const Watch = () => {
             onClick={() => showRegular()}
             className={regular && "Current"}
           >
-            Regular
+            Casual
+          </button>
+          <button
+            onClick={() => showClassic()}
+            className={classic && "Current"}
+          >
+            classic
           </button>
           <button
             onClick={() => showPremium()}
@@ -64,11 +96,13 @@ export const Watch = () => {
           </button>
           <p>
             Price Range: {regular && "$200 ~ $500"}{" "}
-            {premium && "$2,000 ~ 5,000"} {luxury && "$7,500 ~ $50,000"}{" "}
+            {classic && "$1,000 ~ $5,000"}
+            {premium && "$5,000 ~ 15,000"} {luxury && "$20,000 ~ $75,000"}{" "}
           </p>
         </animated.div>
         <animated.div style={bottomProps} className="Watch-Bottom">
           {regular && <Regular />}
+          {classic && <Classic />}
           {premium && <Premium />}
           {luxury && <Luxury />}
         </animated.div>
