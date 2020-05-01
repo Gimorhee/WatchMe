@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "react-image";
 
 // WATCH IMAGES
 import ap1 from "../../images/luxury/ap1.png";
@@ -19,7 +20,7 @@ export const Luxury = () => {
     <div className="Watches">
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={ap1} alt="" />
+          <Img src={ap1} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>AUDEMARS PIGUET</span>
@@ -27,7 +28,7 @@ export const Luxury = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={ap2} alt="" />
+          <Img src={ap2} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>AUDEMARS PIGUET</span>
@@ -35,7 +36,7 @@ export const Luxury = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={ap3} alt="" />
+          <Img src={ap3} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>AUDEMARS PIGUET</span>
@@ -43,7 +44,7 @@ export const Luxury = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={ap4} alt="" />
+          <Img src={ap4} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>AUDEMARS PIGUET</span>
@@ -52,67 +53,67 @@ export const Luxury = () => {
 
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={vc1} alt="" />
+          <Img src={pp1} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>VACHERON CONSTANTIN</span>
+          <span>PATEK PHILIPPE</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={vc2} alt="" />
+          <Img src={pp2} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>VACHERON CONSTANTIN</span>
+          <span>PATEK PHILIPPE</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={vc3} alt="" />
+          <Img src={pp3} />
         </div>
         <div className="Inner-Bg">
-          <span>VACHERON CONSTANTIN</span>
+          <span>PATEK PHILIPPE</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={vc4} alt="" />
+          <Img src={pp4} className="Avg-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>VACHERON CONSTANTIN</span>
+          <span>PATEK PHILIPPE</span>
         </div>
       </div>
 
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={pp1} alt="" />
+          <Img src={vc1} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>PATEK PHILIPPE</span>
+          <span>VACHERON CONSTANTIN</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={pp2} alt="" />
+          <Img src={vc2} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>PATEK PHILIPPE</span>
+          <span>VACHERON CONSTANTIN</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={pp3} alt="" />
+          <Img src={vc3} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>PATEK PHILIPPE</span>
+          <span>VACHERON CONSTANTIN</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={pp4} alt="" />
+          <Img src={vc4} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>PATEK PHILIPPE</span>
+          <span>VACHERON CONSTANTIN</span>
         </div>
       </div>
     </div>

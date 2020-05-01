@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "react-image";
 
 // WATCH IMAGES
 import bp1 from "../../images/premium/bp1.png";
@@ -19,7 +20,7 @@ export const Premium = () => {
     <div className="Watches">
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={rolex1} alt="" />
+          <Img src={rolex1} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>ROLEX</span>
@@ -27,7 +28,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={rolex2} alt="" />
+          <Img src={rolex2} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>ROLEX</span>
@@ -35,7 +36,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={rolex3} alt="" />
+          <Img src={rolex3} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>ROLEX</span>
@@ -43,7 +44,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="No-Padding" src={rolex4} alt="" />
+          <Img src={rolex4} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>ROLEX</span>
@@ -52,7 +53,7 @@ export const Premium = () => {
 
       <div className="Watch">
         <div className="Image-Container">
-          <img src={bp1} alt="" />
+          <Img src={bp1} />
         </div>
         <div className="Inner-Bg">
           <span>BLANCPAIN</span>
@@ -60,7 +61,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={bp2} alt="" />
+          <Img src={bp2} />
         </div>
         <div className="Inner-Bg">
           <span>BLANCPAIN</span>
@@ -68,7 +69,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={bp3} alt="" />
+          <Img src={bp3} />
         </div>
         <div className="Inner-Bg">
           <span>BLANCPAIN</span>
@@ -76,7 +77,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={bp4} alt="" />
+          <Img src={bp4} />
         </div>
         <div className="Inner-Bg">
           <span>BLANCPAIN</span>
@@ -85,7 +86,7 @@ export const Premium = () => {
 
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={zenith1} alt="" />
+          <Img src={zenith1} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>ZENITH</span>
@@ -93,7 +94,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={zenith2} alt="" />
+          <Img src={zenith2} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>ZENITH</span>
@@ -101,7 +102,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={zenith3} alt="" />
+          <Img src={zenith3} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>ZENITH</span>
@@ -109,7 +110,7 @@ export const Premium = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={zenith4} alt="" />
+          <Img src={zenith4} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>ZENITH</span>

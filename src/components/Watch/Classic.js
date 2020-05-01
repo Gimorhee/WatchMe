@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "react-image";
 
 // WATCH IMAGES
 import cs1 from "../../images/classic/cs1.png";
@@ -18,32 +19,32 @@ export const Classic = () => {
   return (
     <div className="Watches">
       <div className="Watch">
-        <div className="Image-Container">
-          <img className="Little-Padding" src={cs1} alt="" />
+        <div className="Image-Container Extra-Padding">
+          <Img src={cs1} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>CHRONOSWISS</span>
         </div>
       </div>
       <div className="Watch">
-        <div className="Image-Container">
-          <img className="Little-Padding" src={cs2} alt="" />
+        <div className="Image-Container Extra-Padding">
+          <Img src={cs2} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>CHRONOSWISS</span>
         </div>
       </div>
       <div className="Watch">
-        <div className="Image-Container">
-          <img className="Little-Padding" src={cs3} alt="" />
+        <div className="Image-Container Extra-Padding">
+          <Img src={cs3} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>CHRONOSWISS</span>
         </div>
       </div>
       <div className="Watch">
-        <div className="Image-Container">
-          <img className="Little-Padding" src={cs4} alt="" />
+        <div className="Image-Container Extra-Padding">
+          <Img src={cs4} className="No-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>CHRONOSWISS</span>
@@ -52,7 +53,7 @@ export const Classic = () => {
 
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={iwc1} alt="" />
+          <Img src={iwc1} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>IWC</span>
@@ -60,7 +61,7 @@ export const Classic = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={iwc2} alt="" />
+          <Img src={iwc2} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>IWC</span>
@@ -68,7 +69,7 @@ export const Classic = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={iwc3} alt="" />
+          <Img src={iwc3} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>IWC</span>
@@ -76,7 +77,7 @@ export const Classic = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={iwc4} alt="" />
+          <Img src={iwc4} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>IWC</span>
@@ -85,7 +86,7 @@ export const Classic = () => {
 
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={omega1} alt="" />
+          <Img src={omega1} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>OMEGA</span>
@@ -93,7 +94,7 @@ export const Classic = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={omega2} alt="" />
+          <Img src={omega2} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>OMEGA</span>
@@ -101,7 +102,7 @@ export const Classic = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={omega3} alt="" />
+          <Img src={omega3} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>OMEGA</span>
@@ -109,7 +110,7 @@ export const Classic = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={omega4} alt="" />
+          <Img src={omega4} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
           <span>OMEGA</span>

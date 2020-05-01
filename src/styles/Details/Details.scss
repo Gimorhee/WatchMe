@@ -166,13 +166,14 @@
       .Details-Infos {
         .Details-Info {
           .Inner-Info {
-            width: calc(100% - 10px);
+            width: calc(50% - 10px);
             order: 1;
 
             p {
               font-size: 15px;
               margin-bottom: 25px;
               line-height: 1.2;
+              margin-bottom: 20px;
             }
 
             span {
@@ -187,5 +188,31 @@
         }
       }
     }
+
+    // .Details-Bottom {
+    //   .Details-Infos {
+    //     .Details-Info {
+    //       .Inner-Info {
+    //         width: calc(100% - 10px);
+    //         order: 1;
+
+    //         p {
+    //           font-size: 15px;
+    //           margin-bottom: 25px;
+    //           line-height: 1.2;
+    //         }
+
+    //         span {
+    //           font-size: 18px;
+    //         }
+    //       }
+
+    //       .Info-Quote {
+    //         width: 100%;
+    //         order: 2;
+    //       }
+    //     }
+    //   }
+    // }
   }
 }

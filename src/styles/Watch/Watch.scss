@@ -80,6 +80,7 @@
         width: 25%;
         height: auto;
         position: relative;
+
         &:hover {
           .Inner-Bg {
             background: #867360;
@@ -98,18 +99,23 @@
           }
         }
 
+        .Extra-Padding {
+          padding: 45px 0;
+        }
+
         .Image-Container {
           background: white;
           opacity: 0.92;
-          height: 100%;
           display: flex;
           align-items: center;
           justify-content: center;
           overflow: hidden;
+          width: 100%;
+          height: 100%;
 
           img {
             width: 90%;
-            transition: 0.6s ease-in-out all;
+            transition: 0.5s ease-in-out all;
             padding: 8%;
           }
 
@@ -117,8 +123,8 @@
             padding: 0%;
           }
 
-          .Little-Padding {
-            padding: 1%;
+          .Avg-Padding {
+            padding: 12%;
           }
 
           .More-Padding {

@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "react-image";
 
 // WATCH IMAGES
 import dw1 from "../../images/regular/dw1.jpg";
@@ -9,17 +10,17 @@ import ts1 from "../../images/regular/ts1.png";
 import ts2 from "../../images/regular/ts2.png";
 import ts5 from "../../images/regular/ts5.png";
 import ts6 from "../../images/regular/ts6.png";
-import nixon1 from "../../images/regular/nixon1.png";
-import nixon2 from "../../images/regular/nixon2.png";
-import nixon3 from "../../images/regular/nixon3.png";
-import nixon4 from "../../images/regular/nixon4.png";
+import vincero1 from "../../images/regular/vincero1.jpg";
+import vincero2 from "../../images/regular/vincero2.jpg";
+import vincero3 from "../../images/regular/vincero3.jpg";
+import vincero4 from "../../images/regular/vincero4.jpg";
 
 export const Regular = () => {
   return (
     <div className="Watches">
       <div className="Watch">
         <div className="Image-Container">
-          <img src={dw1} alt="" />
+          <Img src={dw1} />
         </div>
         <div className="Inner-Bg">
           <span>Daniel Wellington</span>
@@ -27,7 +28,7 @@ export const Regular = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={dw2} alt="" />
+          <Img src={dw2} />
         </div>
         <div className="Inner-Bg">
           <span>Daniel Wellington</span>
@@ -35,7 +36,7 @@ export const Regular = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={dw3} alt="" />
+          <Img src={dw3} />
         </div>
         <div className="Inner-Bg">
           <span>Daniel Wellington</span>
@@ -43,7 +44,7 @@ export const Regular = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={dw5} alt="" />
+          <Img src={dw5} />
         </div>
         <div className="Inner-Bg">
           <span>Daniel Wellington</span>
@@ -52,7 +53,7 @@ export const Regular = () => {
 
       <div className="Watch">
         <div className="Image-Container">
-          <img src={ts1} alt="" />
+          <Img src={ts1} />
         </div>
         <div className="Inner-Bg">
           <span>TISSOT</span>
@@ -60,7 +61,7 @@ export const Regular = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={ts2} alt="" />
+          <Img src={ts2} />
         </div>
         <div className="Inner-Bg">
           <span>TISSOT</span>
@@ -68,7 +69,7 @@ export const Regular = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={ts5} alt="" />
+          <Img src={ts5} />
         </div>
         <div className="Inner-Bg">
           <span>TISSOT</span>
@@ -76,7 +77,7 @@ export const Regular = () => {
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img src={ts6} alt="" />
+          <Img src={ts6} />
         </div>
         <div className="Inner-Bg">
           <span>TISSOT</span>
@@ -85,34 +86,34 @@ export const Regular = () => {
 
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={nixon1} alt="" />
+          <Img src={vincero1} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>NIXON</span>
+          <span>VINCERO</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={nixon2} alt="" />
+          <Img src={vincero2} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>NIXON</span>
+          <span>VINCERO</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={nixon3} alt="" />
+          <Img src={vincero3} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>NIXON</span>
+          <span>VINCERO</span>
         </div>
       </div>
       <div className="Watch">
         <div className="Image-Container">
-          <img className="More-Padding" src={nixon4} alt="" />
+          <Img src={vincero4} className="More-Padding" />
         </div>
         <div className="Inner-Bg">
-          <span>NIXON</span>
+          <span>VINCERO</span>
         </div>
       </div>
     </div>

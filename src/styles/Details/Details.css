@@ -141,7 +141,7 @@
     font-size: 13.5px;
   }
   .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info {
-    width: calc(100% - 10px);
+    width: calc(50% - 10px);
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -150,6 +150,7 @@
     font-size: 15px;
     margin-bottom: 25px;
     line-height: 1.2;
+    margin-bottom: 20px;
   }
   .Details .Details-Bottom .Details-Infos .Details-Info .Inner-Info span {
     font-size: 18px;
