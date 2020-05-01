@@ -29,7 +29,7 @@ export const Main = () => {
         <animated.div style={bottomProps}>
           <p>
             Trusted by the world's largest clients, labels and brands to collect
-            more royalties, consult about new watch at any value, fix and
+            more watches, consult about new watch at any value, repair and
             customize with more transparency and technology than anyone else.{" "}
           </p>
         </animated.div>

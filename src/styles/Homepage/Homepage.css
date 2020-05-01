@@ -100,7 +100,7 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  background: #362b20;
+  background: #252525;
   border: none;
   border-radius: 4px;
   padding: 17px 50px;
@@ -115,7 +115,7 @@
 
 .Homepage .GetInTouch .GetInTouch-Content a:hover {
   background: #fff;
-  color: #362b20;
+  color: #252525;
 }
 
 .Homepage .Service {

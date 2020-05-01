@@ -5,6 +5,7 @@ import { GetInTouch } from "./GetInTouch";
 import { Service } from "./Service";
 import { Watch } from "../Watch/Watch";
 import { Details } from "../Details/Details";
+import { GetInTouch2 } from "./GetInTouch2";
 
 import "../../styles/Homepage/Homepage.css";
 
@@ -20,6 +21,7 @@ export const Homepage = () => {
       <Service />
       <Watch />
       <Details />
+      <GetInTouch2 />
     </div>
   );
 };
