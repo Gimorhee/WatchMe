@@ -96,8 +96,8 @@ export const Details = () => {
             <div className="Details-Info">
               <div className="Inner-Info Info-Quote">
                 <p>
-                  <span>‟</span>Respect yourself enough to know that you deserve
-                  the very best<span>”</span>
+                  <span>‟</span>A gentleman's choice of timepiece says as much
+                  about him as does his Savile Row suit<span>”</span>
                 </p>
               </div>
               <div className="Inner-Info">
