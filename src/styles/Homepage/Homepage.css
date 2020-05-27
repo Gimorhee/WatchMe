@@ -112,6 +112,7 @@
   color: #fff;
   -webkit-transition: 0.4s ease-in-out all;
   transition: 0.4s ease-in-out all;
+  position: relative;
 }
 
 .Homepage .GetInTouch .GetInTouch-Content a:focus,
@@ -123,6 +124,27 @@
 .Homepage .GetInTouch2 .GetInTouch-Content a:hover {
   background: #fff;
   color: #252525;
+}
+
+.Homepage .GetInTouch .GetInTouch-Content a:hover:after,
+.Homepage .GetInTouch2 .GetInTouch-Content a:hover:after {
+  width: 45%;
+  left: 55%;
+}
+
+.Homepage .GetInTouch .GetInTouch-Content a:after,
+.Homepage .GetInTouch2 .GetInTouch-Content a:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  top: 50%;
+  left: 0;
+  border-top: 2px solid #252525;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: 0.4s ease-in-out all;
+  transition: 0.4s ease-in-out all;
 }
 
 .Homepage .GetInTouch2 {

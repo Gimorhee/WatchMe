@@ -64,14 +64,32 @@
         transition: 0.5s ease-in-out all;
         font-weight: 500;
         margin: 5px;
+        position: relative;
 
         &:focus {
           outline: none;
         }
 
         &:hover {
-          background: #000;
-          color: #dadada;
+          background: #dadada;
+          color: #1d1d1d;
+        }
+
+        &:hover:after {
+          width: 45%;
+          left: 55%;
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          height: 1px;
+          width: 0;
+          top: 50%;
+          left: 0;
+          border-top: 2px solid #1d1d1d;
+          transform: translateY(-50%);
+          transition: 0.4s ease-in-out all;
         }
       }
     }

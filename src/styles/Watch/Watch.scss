@@ -68,6 +68,14 @@
   }
 
   .Watch-Bottom {
+    .show {
+      display: block;
+    }
+
+    .hidden {
+      display: none;
+    }
+
     .Watches {
       width: 100%;
       max-width: 1250px;

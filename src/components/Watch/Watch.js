@@ -100,12 +100,20 @@ export const Watch = () => {
             {premium && "$5,000 ~ 15,000"} {luxury && "$20,000 ~ $75,000"}{" "}
           </p>
         </animated.div>
-        <animated.div style={bottomProps} className="Watch-Bottom">
-          {regular && <Regular />}
-          {classic && <Classic />}
-          {premium && <Premium />}
-          {luxury && <Luxury />}
-        </animated.div>
+        <div className="Watch-Bottom">
+          <div className={regular ? "show" : "hidden"}>
+            <Regular />
+          </div>
+          <div className={classic ? "show" : "hidden"}>
+            <Classic />
+          </div>
+          <div className={premium ? "show" : "hidden"}>
+            <Premium />
+          </div>
+          <div className={luxury ? "show" : "hidden"}>
+            <Luxury />
+          </div>
+        </div>
       </div>
     );
   };

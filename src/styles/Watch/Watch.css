@@ -78,6 +78,14 @@
   font-family: "Exo 2", sans-serif;
 }
 
+.Watch-Container .Watch-Bottom .show {
+  display: block;
+}
+
+.Watch-Container .Watch-Bottom .hidden {
+  display: none;
+}
+
 .Watch-Container .Watch-Bottom .Watches {
   width: 100%;
   max-width: 1250px;
