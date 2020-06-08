@@ -336,3 +336,58 @@
     }
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .Contact {
+    .Contact-Content {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      .Contact-Q {
+        h1 {
+          font-size: 20px;
+        }
+      }
+      .Contact-A {
+        width: 100%;
+        input {
+          margin-left: 0;
+          width: 100%;
+          font-size: 18px;
+          &::placeholder {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .Contact-S {
+        right: 10px;
+        bottom: -60px;
+        margin-left: 0;
+        a {
+          font-size: 15px;
+        }
+      }
+
+      .Contact-Warning {
+        margin: 0;
+        top: -40px;
+      }
+
+      .Content-Choices {
+        width: 100%;
+        margin-left: 0;
+        .Content-Choice,
+        .Chosen {
+          width: 100%;
+
+          .Content-Type {
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

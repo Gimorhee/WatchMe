@@ -198,3 +198,21 @@
     }
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .Footer {
+    .Footer-Inner {
+      padding: 0;
+      .Footer-Center {
+        .FooterButtonContainer {
+          display: flex;
+          flex-direction: column;
+
+          .Footer-Button {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}

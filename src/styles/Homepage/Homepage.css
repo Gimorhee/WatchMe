@@ -301,4 +301,13 @@
     font-size: 13.5px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .Homepage .Service .Service-Inner {
+    padding: 5px;
+  }
+  .Homepage .Service .Service-Inner .Service-Contents .Service-Content {
+    padding: 5px;
+  }
+}
 /*# sourceMappingURL=Homepage.css.map */

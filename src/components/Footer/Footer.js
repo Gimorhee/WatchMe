@@ -27,7 +27,7 @@ export const Footer = () => {
               <i className="far fa-paper-plane"></i> <span>WATCH ME</span>
             </a>
           </div>
-          <div>
+          <div className="FooterButtonContainer">
             <Link className="Footer-Button" to="/contact1">
               GET IN TOUCH
             </Link>

@@ -216,3 +216,18 @@
     // }
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .Details {
+    padding: 80px 15px;
+    .Details-Top {
+      h1 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}

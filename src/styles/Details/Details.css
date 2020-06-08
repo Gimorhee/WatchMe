@@ -162,4 +162,16 @@
             order: 2;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .Details {
+    padding: 80px 15px;
+  }
+  .Details .Details-Top h1 {
+    font-size: 18px;
+  }
+  .Details .Details-Top p {
+    font-size: 13px;
+  }
+}
 /*# sourceMappingURL=Details.css.map */
