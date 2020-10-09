@@ -77,8 +77,8 @@ export const Service = () => {
               <h6>LOOKING TO SELL</h6>
               <p>
                 You need your watch gone? We will price your watch with the
-                maximum possible value, either by it ourselves or provide you
-                other sources wher you can sell your watches.
+                maximum possible value, either by ourselves or link you with
+                other buyers who are interested in your watches
               </p>
             </div>
           </animated.div>
